@@ -22,4 +22,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+<<<<<<< HEAD
 firebase.js
+=======
+firebase.js
+>>>>>>> c4876f8e39ae878f51d807fca7f39aca7086f102
