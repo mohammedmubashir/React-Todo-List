@@ -1,0 +1,6 @@
+First we are going to make a normal input and some ul item.
+then we are going to make a setState and give those ul item strings as values.
+To track what is written in the input we are initializing onChange.
+Then when button is pressed (Created after 1st step) making a paragraph with written text.
+then moving that paragraph into its component
+adding firebase..
