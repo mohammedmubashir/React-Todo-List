@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+body {
+  background-image: url(./blue-snow.png);
+}
+.container {
+  font-family: "PT Sans", sans-serif;
+  background-color: #b5eaea;
+  opacity: 0.33;
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+.container > h1 {
+  color: red !important;
+}
+.addBtn {
+  margin-top: 10px !important;
+  margin-left: 15px !important;
+}
+Input {
+  color: red !important;
+  opacity: 1 !important;
+}

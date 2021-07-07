@@ -1,0 +1,18 @@
+.listItemCard {
+  background-color: #b5eaea !important;
+  border-radius: 20px;
+  width: fit-content;
+  margin: 25px !important;
+  display: inline-block;
+  padding: 10px 20px !important;
+}
+.MuiSvgIcon-root {
+  fill: cadetblue !important;
+  float: right;
+}
+.MuiButton-root {
+  float: left !important;
+}
+.MuiListItem-root {
+  color: #e98580;
+}
