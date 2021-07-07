@@ -10,9 +10,26 @@
   fill: cadetblue !important;
   float: right;
 }
-.MuiButton-root {
-  float: left !important;
-}
 .MuiListItem-root {
   color: #e98580;
+}
+
+Form > Button {
+  color: black !important;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    width: 100vw !important;
+  }
+  .listItemCard {
+    width: 80vw;
+  }
+  .MuiFormControl-root {
+    height: 60px;
+    width: 250px;
+  }
+  .MuiInputBase-root {
+    font-weight: 900 !important;
+  }
 }

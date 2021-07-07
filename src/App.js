@@ -36,7 +36,7 @@ function App() {
         <h1>Let's Get Work Done</h1>
         <form>
           <FormControl>
-            <InputLabel>Enter a todo list</InputLabel>
+            <InputLabel>Enter a Task</InputLabel>
             <Input value={input} onChange={e => setInput(e.target.value)} />
           </FormControl>
           <Button className="addBtn" disabled={!input} type="submit" onClick={addTodo} variant="contained" color="secondary">

@@ -44,7 +44,7 @@ function Todo(props) {
                     <h1>Let's change your work.</h1>
                     <form>
                         <input placeholder={props.text.todo} value={input} onChange={e => setInput(e.target.value)} />
-                        <Button type="submit" variant="contained" color="secondary" onClick={updateTodo}>Update existing todo...</Button>
+                        <Button disabled={!input} type="submit" variant="contained" color="secondary" onClick={updateTodo}>Update existing todo...</Button>
                     </form>
                 </div>
             </Modal>
